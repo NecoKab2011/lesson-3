@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок-3</title>
+</head>
+
+<body>
+    <!-- Блокові -->
+    <section>
+        <h2>Блокові та рядкові теги</h2>
+
+        <h3>Блокові теги</h3>
+<header>
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ul>
+</header>
+    <footer></footer>
+    <div></div>
+    <h1></h1>
+    <section>
+        <ul>
+            <li><a href="">посилання</a></li>
+            <li><a href="">посилання</a></li>
+        </ul>
+    </section>
+    <p>Lorem ipsum <span>dolor</span>  sit amet.</p>
+
+    <h3>Рядкові теги</h3>
+    <a href="">посилання</a>
+    <b>жирний</b>
+    <i>курсив</i>
+    <input type="text">
+    <img src="./Capybara (1).webp" alt="" width="100" >
+    </section>
+    <!-- Символьні підстановки -->
+    <section>
+        <ul>
+            <li>&lt; і /&gt;. - курсив</li>
+            <li>&lt; b /&gt;. - жирний</li>
+        </ul>
+    </section>
+    <!-- Таблиці -->
+    <section>
+        <table>
+            <caption>Розклад уроків</caption>
+            <thead>
+                <tr>
+                    <th>номер п/п</th>
+                    <th>Понеділок</th>
+                    <th>Вівторок</th>
+                    <th>Середа</th>
+                    <th>Четвер</th>
+                    <th>Пятниця</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Математика</td>
+                    <td>Укр. мова</td>
+                    <td>Географія</td>
+                    <td>Фіз. культура</td>
+                    <td>Біологія</td>
+                </tr>
+
+                <tr>
+                    <th>2</th>
+                    <td>Англ. мова</td>
+                    <td>Труд. навчання</td>
+                    <td>Інформатика</td>
+                    <td>Образ. мист.</td>
+                    <td>Муз. мист.</td>
+                </tr>
+
+                <tr>
+                    <th>3</th>
+                    <td>Фіз. культура</td>
+                    <td>Математика</td>
+                    <td>Основ. здоров.</td>
+                    <td>Укр. літ.</td>
+                    <td>Фіз. культура</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Кількість</th>
+                    <th>3</th>
+                    <th>3</th>
+                    <th>3</th>
+                    <th>3</th>
+                    <th>3</th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </section>
+
+    <!-- Форми -->
+    <section>
+        <form name="form" >
+            <label>
+                І*мя
+                <input type="text" placeholder="І*мя" >
+            </label>
+
+            <label for="">
+                email
+            <input type="email" placeholder="email" autofocus >
+            </label>
+            
+            <label>
+                password
+                <input type="password" placeholder=" password" >
+            </label>
+
+            <label>
+                tel
+                <input type="tel" placeholder="tel" >
+            </label>
+            <br>
+            <!-- Радіокнопки -->
+            <label>
+                Студент   
+                <input type="radio" name="status" value="Студент" >
+            </label>
+            <label>
+                Викладач
+                <input type="radio" name="status" value="Викладач" checked >
+            </label>
+            <label>
+                Батьки
+                <input type="radio" name="status" value="Батьки" >
+            </label>
+            <br>
+             <!-- Чекбокс -->
+            <p>Мова програмування</p>
+            <label>
+                Чи погоджуєтесь з правилами
+                <input type="checkbox" >
+            </label>
+            <br>
+            <!-- Повзунки -->
+            <label>
+                Interest rate
+                <input type="range" name="interest_rate" value="40" min="0" max="100" step="20">
+            </label>
+
+            <p>Selected value: <span class="js-selected-value">40</span></p>
+            <br>
+
+            <!-- Дата і час -->
+            <label>date<input type="date"></label>
+            <br>
+            <label>time<input type="time"></label>
+            <br>
+            <label>datetime-local<input type="datetime-local"></label>
+            <br>
+            <!-- Елементи <textarea> -->
+            <label>
+                <textarea name="" id="" rows="10" placeholder="коментар"></textarea>
+            </label>
+            <br>
+            <!-- Елементи <select> -->
+            <label for="size">Size</label>
+            <select id="size" name="size">
+                <option value="xs">Extra Small</option>
+                <option value="s">Small</option>
+                <option value="m" selected>Medium</option>
+                <option value="l">Large</option>
+            </select>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>Права захищені &copy; </p>
+    </footer>
+
+</body>
+</html>
